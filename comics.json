@@ -1,0 +1,24 @@
+[
+  {
+    "id": "louren-001",
+    "tipo": "comic",
+    "titulo": "Louren",
+    "numero": "001",
+    "sinopsis": "El inicio de la saga.",
+    "portada": "https://TU-BUCKET.supabase.co/storage/v1/object/public/comics/portada-louren.jpg",
+    "paginas": [
+      "https://TU-BUCKET.supabase.co/storage/v1/object/public/comics/louren-01.jpg"
+    ]
+  },
+  {
+    "id": "corto-01",
+    "tipo": "animacion",
+    "titulo": "El primer trazo",
+    "numero": "Corto 01",
+    "sinopsis": "Un corto animado de prueba.",
+    "portada": "https://TU-BUCKET.supabase.co/storage/v1/object/public/comics/portada-corto.jpg",
+    "paginas": [
+      "https://TU-BUCKET.supabase.co/storage/v1/object/public/comics/corto-01.jpg"
+    ]
+  }
+]
