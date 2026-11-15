@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-15T00:00:00Z",
+  "checksum": "sha256:abc123...",
+  "genres": [
+    { "id": "sci-fi", "name": "Sci-Fi" },
+    { "id": "drama", "name": "Drama" },
+    { "id": "documental", "name": "Documental" },
+    { "id": "experimental", "name": "Experimental" },
+    { "id": "animacion", "name": "Animación" },
+    { "id": "terror", "name": "Terror" },
+    { "id": "romance", "name": "Romance" }
+  ],
+  "creators": [
+    {
+      "id": "maya-voss",
+      "name": "Maya Voss",
+      "role": "Guión & Arte",
+      "avatarUrl": "https://cdn.indieverse.app/creators/maya-voss.jpg",
+      "bio": "Guionista y dibujante. 8 años en cómic independiente."
+    },
+    {
+      "id": "studio-pulse",
+      "name": "Studio Pulse",
+      "role": "Estudio de animación",
+      "avatarUrl": "https://cdn.indieverse.app/creators/studio-pulse.jpg",
+      "bio": "Colectivo de animación experimental."
+    }
+  ],
+  "works": [
+    {
+      "id": "cronicas-del-vacio",
+      "type": "comic",
+      "title": "Crónicas del Vacío",
+      "synopsis": "Exploradores descubren civilizaciones olvidadas en el borde del universo.",
+      "year": 2024,
+      "genres": ["sci-fi", "misterio", "aventura"],
+      "rating": { "average": 8.7, "count": 142 },
+      "coverUrl": "https://cdn.indieverse.app/covers/cronicas-del-vacio.jpg",
+      "backdropUrl": "https://cdn.indieverse.app/backdrops/cronicas-del-vacio.jpg",
+      "creatorIds": ["maya-voss"],
+      "status": "published",
+      "publishedAt": "2024-03-01T00:00:00Z",
+      "chapters": [
+        { "id": "cronicas-4", "number": 4, "title": "Ecos", "pageCount": 35, "status": "new",
+          "pages": [
+            "https://cdn.indieverse.app/comics/cronicas/004/page-01.jpg",
+            "https://cdn.indieverse.app/comics/cronicas/004/page-02.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "neon-drift",
+      "type": "video",
+      "subtype": "short",
+      "title": "Neon Drift",
+      "synopsis": "Un piloto solitario se adentra en las calles infinitas de una metrópolis nocturna.",
+      "year": 2024,
+      "genres": ["animacion", "sci-fi"],
+      "rating": { "average": 8.9, "count": 87 },
+      "coverUrl": "https://cdn.indieverse.app/covers/neon-drift.jpg",
+      "backdropUrl": "https://cdn.indieverse.app/backdrops/neon-drift.jpg",
+      "creatorIds": ["studio-pulse"],
+      "status": "published",
+      "publishedAt": "2024-06-15T00:00:00Z",
+      "videos": [
+        {
+          "id": "neon-drift-main",
+          "label": "Corto",
+          "durationSec": 760,
+          "mediaId": "media_neon_drift_001",
+          "hlsUrl": null,
+          "mp4Url": "https://cdn.indieverse.app/videos/neon-drift/master.mp4",
+          "subtitles": [
+            { "lang": "es", "url": "https://cdn.indieverse.app/subs/neon-drift/es.vtt" },
+            { "lang": "en", "url": "https://cdn.indieverse.app/subs/neon-drift/en.vtt" }
+          ]
+        }
+      ]
+    }
+  ]
+}
